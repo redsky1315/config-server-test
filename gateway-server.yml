@@ -28,7 +28,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health, beans, metrics
+        include: "*"
   endpoint:
     gateway:
       enabled: true
