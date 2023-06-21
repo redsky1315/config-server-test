@@ -4,10 +4,10 @@ spring:
   cloud:
     gateway:
       #자동 routes
-      #discovery:
-        #locator:
-          #enabled: true
-          #lower-case-service-id: true
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
       #수동 routes
       routes:
       - id: test-service
